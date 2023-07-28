@@ -15,13 +15,28 @@ const Navbar = () => {
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Parent</summary>
+          <summary>Categories</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <a>CPU / Processor</a>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <a>Motherboard</a>
+            </li>
+            <li>
+              <a>RAM</a>
+            </li>
+            <li>
+              <a>Power Supply Unit</a>
+            </li>
+            <li>
+              <a>Storage Device</a>
+            </li>
+            <li>
+              <a>Monitor</a>
+            </li>
+            <li>
+              <a>Others</a>
             </li>
           </ul>
         </details>
