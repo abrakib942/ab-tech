@@ -1,5 +1,7 @@
 import ProductCard from "@/components/Card";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home({ products }) {
@@ -38,6 +40,19 @@ export default function Home({ products }) {
     <div className="">
       <Navbar />
 
+      <div className="lg:p-12 flex flex-col md:flex-row items-center">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold mb-4">Build Your Dream PC</h1>
+          <p className="text-lg">
+            Choose from a wide range of components to create your perfect PC.
+          </p>
+          <button className="btn btn-neutral my-8">Get Started</button>
+        </div>
+        <div>
+          <img className="w-full" src="/pc.jpg" alt="pc" />
+        </div>
+      </div>
+
       {/* featured products section */}
       <div>
         <div className="text-center my-8 font-semibold text-3xl">
@@ -74,6 +89,7 @@ export default function Home({ products }) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
