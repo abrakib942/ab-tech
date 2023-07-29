@@ -5,7 +5,7 @@
     "category": "CPU",
     "price": "$329.99",
     "status": "In Stock",
-    "rating": 4.8
+    "averageRating": 4.8
   },
   {
     "image": "https://dqov5rvavbmnl.cloudfront.net/images/detailed/34/714_DsKIF4L._AC_SL1500_.jpg?t=1649812582",
@@ -13,7 +13,7 @@
     "category": "GPU",
     "price": "$899.99",
     "status": "Out of Stock",
-    "rating": 4.9
+    "averageRating": 4.9
   },
   {
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9OMBZ_MLhFMLjCWGXTvqhqWa550RNm-atdw&usqp=CAU",
@@ -21,7 +21,7 @@
     "category": "RAM",
     "price": "$129.95",
     "status": "In Stock",
-    "rating": 4.7
+    "averageRating": 4.7
   },
   {
     "image": "https://creatuscomputer.com/wp-content/uploads/2022/03/rog-strix-z590-e-gaming-wi-fi-500x500-1.jpg",
@@ -29,7 +29,7 @@
     "category": "Motherboard",
     "price": "$279.00",
     "status": "In Stock",
-    "rating": 4.6
+    "averageRating": 4.6
   },
   {
     "image": "https://m.media-amazon.com/images/I/81zE8qvJbdL._AC_SL1500_.jpg",
@@ -37,7 +37,7 @@
     "category": "Storage",
     "price": "$199.99",
     "status": "In Stock",
-    "rating": 4.5
+    "averageRating": 4.5
   },
   {
     "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/logitech-g-pro-x-wireless-black-super-light-11644211034.webp",
@@ -45,6 +45,456 @@
     "category": "Mice",
     "price": "$149.95",
     "status": "In Stock",
-    "rating": 4.8
+    "averageRating": 4.8
+  },
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/amd-ryzen-7-5800x3d-34ghz-45ghz-8-core-100mb-11681209810.webp",
+    "productName": "Superfast Processor X1",
+    "category": "CPU",
+    "status": "In Stock",
+    "price": "$299.99",
+    "description": "The Superfast Processor X1 is designed for high-performance computing needs.",
+    "keyFeatures": {
+      "brand": "TechPro",
+      "model": "X1",
+      "specification": "8 cores, 16 threads",
+      "socket": "AM4",
+      "clockSpeed": "3.8 GHz",
+      "cache": "16 MB",
+      "tdp": "95W"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.3,
+    "reviews": []
+  },
+
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYE-neDmMN-BfhHubxYyje17jt_zFU2CFu2A&usqp=CAU",
+    "productName": "Powerful CPU Z2",
+    "category": "CPU",
+    "status": "Out of stock",
+    "price": "$399.99",
+    "description": "The Powerful CPU Z2 delivers unparalleled performance for gaming and rendering.",
+    "keyFeatures": {
+      "brand": "MegaTech",
+      "model": "Z2",
+      "specification": "12 cores, 24 threads",
+      "socket": "TR4",
+      "clockSpeed": "4.0 GHz",
+      "cache": "32 MB",
+      "tdp": "140W"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.amd.com/system/files/2022-11/1678077-ryzen-3-badge-1260x709.png",
+    "productName": "Budget CPU A3",
+    "category": "CPU",
+    "status": "In Stock",
+    "price": "$149.99",
+    "description": "The Budget CPU A3 is perfect for everyday computing tasks at an affordable price.",
+    "keyFeatures": {
+      "brand": "AffordableTech",
+      "model": "A3",
+      "specification": "4 cores, 8 threads",
+      "socket": "LGA1200",
+      "clockSpeed": "3.2 GHz",
+      "cache": "8 MB",
+      "tdp": "65W"
+    },
+    "individualRating": 3.9,
+    "averageRating": 3.7,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/asus-rog-strix-z390-f-gaming-ddr4-8th9th-gen-11548646739.webp",
+    "productName": "High-End Motherboard M7",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": "$249.99",
+    "description": "The High-End Motherboard M7 offers top-notch performance and extensive connectivity.",
+    "keyFeatures": {
+      "brand": "TechMaster",
+      "model": "M7",
+      "formFactor": "ATX",
+      "socket": "AM4",
+      "ramSlots": "4",
+      "maxRAMCapacity": "128GB",
+      "pciESlots": "3 x16, 3 x1",
+      "storagePorts": "6 x SATA, 2 x M.2",
+      "usbPorts": "8 x USB 3.2 Gen 1, 4 x USB 3.2 Gen 2"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/msi-mpg-z790-edge-wi-fi-6e-ddr5-12th13th-gen-11681989087.webp",
+    "productName": "Compact Motherboard C3",
+    "category": "Motherboard",
+    "status": "Out of stock",
+    "price": "$129.99",
+    "description": "The Compact Motherboard C3 is perfect for smaller PC builds without compromising features.",
+    "keyFeatures": {
+      "brand": "MiniTech",
+      "model": "C3",
+      "formFactor": "Mini-ITX",
+      "socket": "LGA1200",
+      "ramSlots": "2",
+      "maxRAMCapacity": "64GB",
+      "pciESlots": "1 x16",
+      "storagePorts": "4 x SATA, 1 x M.2",
+      "usbPorts": "6 x USB 3.2 Gen 1, 2 x USB 2.0"
+    },
+    "individualRating": 4.2,
+    "averageRating": 4.0,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/gigabyte-z490m-ddr4-10th-gen-intel-lga1200-socket-11595846085.webp",
+    "productName": "Budget-Friendly Motherboard B2",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": "$89.99",
+    "description": "The Budget-Friendly Motherboard B2 provides essential features for everyday computing.",
+    "keyFeatures": {
+      "brand": "EconoTech",
+      "model": "B2",
+      "formFactor": "Micro-ATX",
+      "socket": "AM4",
+      "ramSlots": "2",
+      "maxRAMCapacity": "32GB",
+      "pciESlots": "1 x16, 2 x1",
+      "storagePorts": "4 x SATA",
+      "usbPorts": "4 x USB 3.2 Gen 1, 6 x USB 2.0"
+    },
+    "individualRating": 3.6,
+    "averageRating": 3.4,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/adata-premier-8gb-ddr4-2666mhz-desktop-ram-11655094610.webp",
+    "productName": "High-Performance RAM H5",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": "$159.99",
+    "description": "The High-Performance RAM H5 delivers fast and reliable memory for your system.",
+    "keyFeatures": {
+      "brand": "SpeedMaster",
+      "model": "H5",
+      "capacity": "16GB (2 x 8GB)",
+      "speed": "3600MHz",
+      "casLatency": "16",
+      "voltage": "1.35V",
+      "memoryType": "DDR4"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.4,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/gskill-8gb-ddr4-2400-bus-desktop-ram-11548509535.webp",
+    "productName": "RGB Gaming RAM G3",
+    "category": "RAM",
+    "status": "Out of stock",
+    "price": "$189.99",
+    "description": "The RGB Gaming RAM G3 adds style and performance to your gaming rig.",
+    "keyFeatures": {
+      "brand": "GamerTech",
+      "model": "G3",
+      "capacity": "32GB (4 x 8GB)",
+      "speed": "3200MHz",
+      "casLatency": "18",
+      "voltage": "1.35V",
+      "memoryType": "DDR4"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.7,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/corsair-vengeance-rgb-pro-sl-16gb-ddr4-3600mhz-11637484494.webp",
+    "productName": "Budget RAM B1",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": "$79.99",
+    "description": "The Budget RAM B1 provides decent performance at an affordable price point.",
+    "keyFeatures": {
+      "brand": "EconoMemory",
+      "model": "B1",
+      "capacity": "8GB (2 x 4GB)",
+      "speed": "2666MHz",
+      "casLatency": "16",
+      "voltage": "1.2V",
+      "memoryType": "DDR4"
+    },
+    "individualRating": 3.8,
+    "averageRating": 3.6,
+    "reviews": []
+  },
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/safeway-ml-sw-atx15-500w-silver-power-11639914742.webp",
+    "productName": "High-Power PSU HX850",
+    "category": "psu",
+    "status": "In Stock",
+    "price": "$149.99",
+    "description": "The High-Power PSU HX850 delivers stable and efficient power for your system.",
+    "keyFeatures": {
+      "brand": "PowerTech",
+      "model": "HX850",
+      "wattage": "850W",
+      "efficiencyRating": "80 Plus Gold",
+      "modularCables": "Yes",
+      "fanSize": "120mm",
+      "connectors": "20+4 Pin, 4+4 Pin CPU, 6+2 Pin PCIe, SATA, Molex"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.3,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/value-top-vt-s200a-plus-real-200w-11644644147.webp",
+    "productName": "Silent PSU S550",
+    "category": "psu",
+    "status": "Out of stock",
+    "price": "$119.99",
+    "description": "The Silent PSU S550 provides a noiseless power supply solution for your PC.",
+    "keyFeatures": {
+      "brand": "QuietPower",
+      "model": "S550",
+      "wattage": "550W",
+      "efficiencyRating": "80 Plus Bronze",
+      "modularCables": "No",
+      "fanSize": "140mm",
+      "connectors": "20+4 Pin, 4+4 Pin CPU, 6+2 Pin PCIe, SATA, Molex"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/value-top-vt-s200b-plus-real-200w-11644647099.webp",
+    "productName": "Budget PSU B400",
+    "category": "psu",
+    "status": "In Stock",
+    "price": "$69.99",
+    "description": "The Budget PSU B400 provides reliable power at an affordable price.",
+    "keyFeatures": {
+      "brand": "EconoPower",
+      "model": "B400",
+      "wattage": "400W",
+      "efficiencyRating": "80 Plus White",
+      "modularCables": "No",
+      "fanSize": "120mm",
+      "connectors": "20+4 Pin, 4+4 Pin CPU, 6 Pin PCIe, SATA, Molex"
+    },
+    "individualRating": 3.9,
+    "averageRating": 3.7,
+    "reviews": []
+  },
+
+  {
+    "image": "storage_image.jpghttps://www.cloud.ryanscomputers.com/cdn/products/main/transcend-ssd225s-500gb-25-inch-sataiii-ssd-11664166568.webp",
+    "productName": "High-Speed SSD S1",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": "$129.99",
+    "description": "The High-Speed SSD S1 offers lightning-fast storage performance.",
+    "keyFeatures": {
+      "brand": "SpeedDrive",
+      "model": "S1",
+      "capacity": "1TB",
+      "interface": "NVMe PCIe M.2",
+      "readSpeed": "3500MB/s",
+      "writeSpeed": "2500MB/s",
+      "formFactor": "M.2 2280"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/k2-internal-25-inch-hddssd-silver-slim-11635225488.webp",
+    "productName": "Huge HDD H4",
+    "category": "Storage Device",
+    "status": "Out of stock",
+    "price": "$89.99",
+    "description": "The Huge HDD H4 provides massive storage capacity for all your data needs.",
+    "keyFeatures": {
+      "brand": "MassiveStorage",
+      "model": "H4",
+      "capacity": "4TB",
+      "interface": "SATA III",
+      "rpm": "7200",
+      "formFactor": "3.5-inch"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.3,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/sandisk-ssd-plus-480gb-25-inch-sataiii-ssd-11607332903.webp",
+    "productName": "Budget SSD B240",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": "$59.99",
+    "description": "The Budget SSD B240 offers affordable solid-state storage for everyday use.",
+    "keyFeatures": {
+      "brand": "EconoDrive",
+      "model": "B240",
+      "capacity": "240GB",
+      "interface": "SATA III",
+      "readSpeed": "550MB/s",
+      "writeSpeed": "450MB/s",
+      "formFactor": "2.5-inch"
+    },
+    "individualRating": 3.7,
+    "averageRating": 3.5,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/samsung-t35-22-inch-fhd-ips-led-11620449048.webp",
+    "productName": "Gaming Monitor G27",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": "$299.99",
+    "description": "The Gaming Monitor G27 offers smooth visuals and fast refresh rates for gaming enthusiasts.",
+    "keyFeatures": {
+      "brand": "GameMaster",
+      "model": "G27",
+      "displaySize": "27 inches",
+      "resolution": "2560x1440 (WQHD)",
+      "refreshRate": "165Hz",
+      "panelType": "IPS",
+      "responseTime": "1ms",
+      "connectors": "HDMI, DisplayPort"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.4,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/hp-m24f-238-inch-fhd-ips-hdmi-vga-11622889720.webp",
+    "productName": "Professional Monitor P24",
+    "category": "Monitor",
+    "status": "Out of stock",
+    "price": "$249.99",
+    "description": "The Professional Monitor P24 offers accurate colors and high-resolution for creative work.",
+    "keyFeatures": {
+      "brand": "ColorPro",
+      "model": "P24",
+      "displaySize": "24 inches",
+      "resolution": "1920x1200 (WUXGA)",
+      "refreshRate": "60Hz",
+      "panelType": "IPS",
+      "responseTime": "5ms",
+      "connectors": "HDMI, DisplayPort, VGA"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/mi-curved-34-inch-wqhd-3440x1440-gaming-monitor-11602570977.webp",
+    "productName": "Budget Monitor B22",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": "$129.99",
+    "description": "The Budget Monitor B22 provides a cost-effective display solution for everyday use.",
+    "keyFeatures": {
+      "brand": "EconoDisplay",
+      "model": "B22",
+      "displaySize": "22 inches",
+      "resolution": "1920x1080 (Full HD)",
+      "refreshRate": "60Hz",
+      "panelType": "TN",
+      "responseTime": "5ms",
+      "connectors": "HDMI, VGA"
+    },
+    "individualRating": 3.9,
+    "averageRating": 3.7,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/main/gamemax-viper-ar40-argb-led-21629719024.webp",
+    "productName": "RGB LED Strip L1",
+    "category": "Others",
+    "status": "In Stock",
+    "price": "$19.99",
+    "description": "The RGB LED Strip L1 adds colorful lighting effects to your PC setup.",
+    "keyFeatures": {
+      "brand": "ColorTech",
+      "model": "L1",
+      "length": "50cm",
+      "LEDs": "15",
+      "controlMethod": "3-pin ARGB header",
+      "compatibility": "Mystic Light, RGB Fusion, Aura Sync"
+    },
+    "individualRating": 4.4,
+    "averageRating": 4.2,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/deepcool-matrexx-55-mesh-wh-led-cabinet-11614209095.webp",
+    "productName": "Tempered Glass Case T110",
+    "category": "Others",
+    "status": "Out of stock",
+    "price": "$79.99",
+    "description": "The Tempered Glass Case T110 offers a stylish and transparent PC casing solution.",
+    "keyFeatures": {
+      "brand": "GlassMaster",
+      "model": "T110",
+      "caseType": "Mid-Tower",
+      "sidePanelType": "Tempered Glass",
+      "maxGPUSize": "390mm",
+      "maxCPUHeatsinkHeight": "165mm",
+      "expansionSlots": "7",
+      "fansIncluded": "4 x 120mm ARGB fans",
+      "frontPorts": "2 x USB 3.0, 1 x USB 2.0, Audio"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": []
+  },
+
+  {
+    "image": "https://www.cloud.ryanscomputers.com/cdn/products/medium/deepcool-matrexx-50-add-rgb-4f-cabinet-11636877106.webp",
+    "productName": "Budget Case B55",
+    "category": "Others",
+    "status": "In Stock",
+    "price": "$49.99",
+    "description": "The Budget Case B55 offers essential features without breaking the bank.",
+    "keyFeatures": {
+      "brand": "EconoCase",
+      "model": "B55",
+      "caseType": "Mid-Tower",
+      "sidePanelType": "Acrylic",
+      "maxGPUSize": "320mm",
+      "maxCPUHeatsinkHeight": "160mm",
+      "expansionSlots": "7",
+      "fansIncluded": "3 x 120mm non-LED fans",
+      "frontPorts": "2 x USB 3.0, Audio"
+    },
+    "individualRating": 3.8,
+    "averageRating": 3.6,
+    "reviews": []
   }
 ]

@@ -1,7 +1,39 @@
 import ProductCard from "@/components/Card";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 export default function Home({ products }) {
+  const categories = [
+    {
+      name: "CPU",
+      color: "#FF5733", // You can replace this with any color you prefer
+    },
+    {
+      name: "Motherboard",
+      color: "#33FF57",
+    },
+    {
+      name: "RAM",
+      color: "#5733FF",
+    },
+    {
+      name: "Power Supply Unit",
+      color: "#33A1FF",
+    },
+    {
+      name: "Storage Device",
+      color: "#FF33E8",
+    },
+    {
+      name: "Monitor",
+      color: "#FFD233",
+    },
+    {
+      name: "Others",
+      color: "#33FFA8",
+    },
+  ];
+
   return (
     <div className="">
       <Navbar />
@@ -13,8 +45,31 @@ export default function Home({ products }) {
         </div>
         <div className="container mx-auto mt-8 p-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {products?.map((product) => (
+            {products?.slice(0, 6).map((product) => (
               <ProductCard key={product.productName} product={product} />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* featured categories */}
+      <div>
+        <div className="text-center my-8 font-semibold text-3xl">
+          Featured Categories
+        </div>
+        <div className="container mx-auto mb-8 p-4">
+          <div className="lg:flex gap-8 justify-center">
+            {categories?.map((category, i) => (
+              <Link
+                href=""
+                style={{
+                  backgroundColor: category.color,
+                }}
+                key={i}
+                className="card text-center font-bold "
+              >
+                <div className="card-body">{category.name}</div>
+              </Link>
             ))}
           </div>
         </div>
