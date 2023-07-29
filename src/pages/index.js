@@ -6,7 +6,7 @@ export default function Home({ products }) {
   const categories = [
     {
       name: "CPU",
-      color: "#FF5733", // You can replace this with any color you prefer
+      color: "#FF5733",
     },
     {
       name: "Motherboard",
@@ -17,11 +17,11 @@ export default function Home({ products }) {
       color: "#5733FF",
     },
     {
-      name: "Power Supply Unit",
+      name: "PSU",
       color: "#33A1FF",
     },
     {
-      name: "Storage Device",
+      name: "Storage",
       color: "#FF33E8",
     },
     {
@@ -61,7 +61,7 @@ export default function Home({ products }) {
           <div className="lg:flex gap-8 justify-center">
             {categories?.map((category, i) => (
               <Link
-                href=""
+                href={`/categories/${category.name}`}
                 style={{
                   backgroundColor: category.color,
                 }}
