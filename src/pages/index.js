@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import ProductCard from "@/components/Card";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";

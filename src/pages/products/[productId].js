@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Loading from "@/components/Loading";
 
 const ProductDetail = ({ product }) => {
