@@ -54,7 +54,7 @@ const ProductDetail = ({ product }) => {
 
 // Generate paths with all product IDs for static generation
 export async function getStaticPaths() {
-  const res = await fetch(`http://localhost:3000/api/products`);
+  const res = await fetch(`${process.env.BASE_URL}/api/products`);
   const data = await res.json();
 
   // Generate paths with product IDs
@@ -64,18 +64,17 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false, // Show 404 if product with the given ID is not found
+    fallback: false,
   };
 }
 
 export async function getStaticProps(context) {
   const { params } = context;
   const res = await fetch(
-    `http://localhost:3000/api/products/${params.productId}`
+    `${process.env.BASE_URL}/api/products/${params.productId}`
   );
   const product = await res.json();
 
-  // Find the product with the matching ID
   // const product = data.data.find((product) => product._id === params.productId);
 
   return {

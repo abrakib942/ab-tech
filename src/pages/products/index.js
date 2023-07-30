@@ -21,7 +21,7 @@ const products = ({ products }) => {
 export default products;
 
 export async function getStaticProps() {
-  const response = await fetch("http://localhost:3000/api/products");
+  const response = await fetch(`${process.env.BASE_URL}/api/products`);
   const data = await response.json();
 
   return {
