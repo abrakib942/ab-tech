@@ -28,9 +28,9 @@ const PcBuild = () => {
                 className=" flex mx-auto items-center justify-between gap-24 w-96 border border-gray-300 p-4 bg-base-200"
               >
                 <div className="font-semibold">{category}</div>
-                <div>
+                <Link href="/pcBuild/[...slug]" as={`/pcBuild/${category}`}>
                   <button className="btn btn-accent btn-outline">Choose</button>
-                </div>
+                </Link>
               </div>
             ))}
           </div>
